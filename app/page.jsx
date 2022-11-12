@@ -21,7 +21,7 @@ export default function HomePage() {
           <Link className={styles.button} href="/scholarships">
             Ver becas
           </Link>
-          <Link className={styles.button} href="/login">
+          <Link className={styles.button} href="/add-scholarship">
             Soy institución
           </Link>
         </div>
