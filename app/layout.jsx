@@ -1,6 +1,8 @@
 import React from "react";
 import { Roboto } from "@next/font/google";
 import styles from "../styles/Header.module.css";
+import footerStyles from "../styles/Footer.module.css";
+
 import Link from "next/link";
 const font = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -25,7 +27,11 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
-        <footer>Footer</footer>
+        <footer className={footerStyles.footer}>
+          Los Linces INC: Juan Manuel Grajales, Santiago Jaramillo, Andrés Castro, Jhon Quitian.
+          <br></br>
+          <a href="https://github.com/GrajalesU/hackathon-udea">GitHub Repository</a>
+        </footer>
       </body>
     </html>
   );
