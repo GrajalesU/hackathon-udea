@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <footer className={footerStyles.footer}>
-          Los Linces INC: Juan Manuel Grajales, Santiago Jaramillo, Andrés Castro, Jhon Quitian.
+          Los Linces: Juan Manuel Grajales, Santiago Jaramillo, Andrés Castro, Jhon Quitian.
           <br></br>
           <a href="https://github.com/GrajalesU/hackathon-udea">GitHub Repository</a>
         </footer>
