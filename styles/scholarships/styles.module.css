@@ -21,6 +21,7 @@
 
 .searchFilter:focus {
   border: 0;
+  outline: none;
 }
 
 .searchFilter {

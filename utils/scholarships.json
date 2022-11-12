@@ -1,0 +1,35 @@
+{
+  "types": [
+    {
+      "id": 1,
+      "name": "Ingeniería"
+    },
+    {
+      "id": 2,
+      "name": "Economía"
+    }
+  ],
+  "scholarships": [
+    {
+      "id": 1,
+      "name": "Fondo epm",
+      "description": "Es un programa de la Alcaldía de Medellín, administrado por la Agencia de Educación Postsecundaria de Medellín – Sapiencia, que brinda oportunidades  para el acceso y la permanencia en la educación superior a estudiantes de estratos 1, 2, 3 y 4, mediante créditos que se pueden condonar total o parcialmente si se cumplen con requisitos basados en méritos académicos y prestación de servicio social.",
+      "img": "https://www.udecolombia.edu.co/wp-content/uploads/2014/05/fondosapiencia.png",
+      "type": "Ingeniería"
+    },
+    {
+      "id": 2,
+      "name": "Fondo epm",
+      "description": "Es un programa de la Alcaldía de Medellín, administrado por la Agencia de Educación Postsecundaria de Medellín – Sapiencia, que brinda oportunidades  para el acceso y la permanencia en la educación superior a estudiantes de estratos 1, 2, 3 y 4, mediante créditos que se pueden condonar total o parcialmente si se cumplen con requisitos basados en méritos académicos y prestación de servicio social.",
+      "img": "https://www.udecolombia.edu.co/wp-content/uploads/2014/05/fondosapiencia.png",
+      "type": "Ingeniería"
+    },
+    {
+      "id": 3,
+      "name": "Fondo epm",
+      "description": "Es un programa de la Alcaldía de Medellín, administrado por la Agencia de Educación Postsecundaria de Medellín – Sapiencia, que brinda oportunidades  para el acceso y la permanencia en la educación superior a estudiantes de estratos 1, 2, 3 y 4, mediante créditos que se pueden condonar total o parcialmente si se cumplen con requisitos basados en méritos académicos y prestación de servicio social.",
+      "img": "https://www.udecolombia.edu.co/wp-content/uploads/2014/05/fondosapiencia.png",
+      "type": "Ingeniería"
+    }
+  ]
+}
