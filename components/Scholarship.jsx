@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import styles from "../styles/scholarships/styles.module.css";
 
 export default function Scholarship({ id, img, description, name }) {
   return (
