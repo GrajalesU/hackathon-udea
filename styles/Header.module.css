@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #09f;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+}
+
+.title {
+  color: rgb(0, 122, 203);
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  color: black;
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: 500;
+}
