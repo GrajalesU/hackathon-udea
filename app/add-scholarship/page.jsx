@@ -29,6 +29,7 @@ export default function AddScholarshipPage() {
     setLink("");
     setName("");
   };
+  
 
   return (
     <section className={styles.container}>
