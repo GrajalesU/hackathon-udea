@@ -2,21 +2,11 @@ import Image from "next/image";
 import React from "react";
 import styles from "../../styles/scholarships/styles.module.css";
 import searchIcon from "../../assets/Search.png";
-import scholarships from "../../utils/scholarships.json";
-import Scholarship from "../../components/Scholarship";
 
 export default function ScholarshipListPage() {
   return (
     <section className={styles.scholars}>
       <ul className={styles.scholarsList}>
-        {/* {scholarships.map((scholarship) => {
-          <Scholarship
-            id={scholarship.id}
-            name={scholarship.name}
-            description={scholarship.description}
-            img={scholarship.img}
-          />;
-        })} */}
         <li className={styles.scholarsElement}>
           <Image width={64} height={64} src={searchIcon} alt="search Icon" />
           <div className={styles.scholarInfo}>
