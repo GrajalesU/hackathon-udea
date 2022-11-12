@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import searchIcon from "../../../assets/Search.png";
+import searchIcon from "../../../assets/home.png";
 import styles from "../../../styles/scholarship/styles.module.css";
 
 async function fetchScholarship(id) {
@@ -14,11 +14,16 @@ export default async function ScholarshipPage({ params }) {
   const scholarship = await fetchScholarship(id);
   return (
     <div>
-      <div>
+      <div className={styles.container}>
         <Image width={300} height={300} src={searchIcon} alt="search Icon" />
-        <h2>{scholarship.name}</h2>
-        <p>{scholarship.description}</p>
-        <a href={scholarship.link} target="_blank" rel="noreferrer">
+        <h2 className={styles.containerTitle}>{scholarship.name}</h2>
+        <p className={styles.containerText}>{scholarship.description}</p>
+        <a
+          className={styles.containerLink}
+          href={scholarship.link}
+          target="_blank"
+          rel="noreferrer"
+        >
           Ver en la pagina original
         </a>
       </div>

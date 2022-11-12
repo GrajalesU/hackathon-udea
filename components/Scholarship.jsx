@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/scholarships/styles.module.css";
+import img from "../assets/home.png";
 
-export default function Scholarship({ id, img, description, name }) {
+export default function Scholarship({ id, description, name }) {
   return (
     <li className={styles.scholarsElement}>
       <Image width={64} height={64} src={img} alt="search Icon" />

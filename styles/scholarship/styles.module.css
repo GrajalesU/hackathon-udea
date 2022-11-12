@@ -7,6 +7,25 @@
   min-height: 30vh;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerTitle {
+  color: #09f;
+}
+
+.containerText {
+  text-align: justify;
+}
+
+.containerLink {
+  color: #09f;
+}
+
 .contactTitle {
   color: #09f;
   text-align: center;
