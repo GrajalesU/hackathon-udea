@@ -7,7 +7,7 @@ const font = Roboto({
 });
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="es-ES">
       <head>
         <title>Los Linces te guían</title>
       </head>
